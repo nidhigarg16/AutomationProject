@@ -14,11 +14,11 @@ public class Log {
     public static Logger Log = LogManager.getLogger(Log.class.getName());
 
     public static void startTestCase(String sTestCaseName) {
-        Log.info("***** START" + sTestCaseName + "*****");
+        Log.info("****** START" + sTestCaseName + "******");
     }
 
     public static void endTestCase(String sTestCaseName) {
-        Log.info("***** END" + sTestCaseName + "*****");
+        Log.info("****** END" + sTestCaseName + "******");
     }
 
     public static void info(String message)
